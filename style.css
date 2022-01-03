@@ -1,20 +1,105 @@
 html {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, sans-serif;
+    font-size: 20px;
+}
+
+main {
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+h1, h2, h4 {
+    color: #e0a80d;
+}
+
+h3, p, li {
+    color: #a4a5a6;
+}
+
+a {
+    color:#e0a80d;
+    text-decoration: none;
+}
+
+a :visited {
+    color: #e0a80d;
+    text-decoration: none;
 }
 
 .pic {
-    background-color: rgb(172, 169, 169); 
+    display: flex;
+    justify-content: space-around;
+    background-color: #2b2c2c; 
     padding: 50px 685px;
-    margin: 0 0 0 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
 }
+
 .name {
-    background-color: rgb(216, 216, 216);
+    background-color: #2d2e2e; 
     text-align: center;
-    margin: 0 0 0 0; 
-    padding: 0 0 0 0;
+    margin: auto; 
+    padding: 25px 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2e2e; 
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 20px 350px;
+}
+
+.about {
+    background-color: #2b2c2c;
+    padding: 60px 130px;
+}
+
+.skills {
+    background-color: #2d2e2e;
+    padding: 50px 0;
+}
+
+.sk {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 220px;
+}
+
+.code {
+    background-color: #2b2c2c;
+    padding: 50px 0;
+}
+
+.exp {
+    background-color: #2d2e2e;
+    padding: 50px 0;
+}
+
+.educ {
+    background-color: #2b2c2c;
+    padding: 50px 0;
+}
+
+.edu {
+    display: flex;
+    background-color: #2b2c2c;
+    justify-content: space-between;
+    padding: 60px 500px;
+}
+
+.ftr {
+    display: flex;
+    background-color: #2d2e2e;
+    justify-content: space-between;
+    padding: 50px 90px;
+    margin-top: 0px;
+}
+
 .rsslogo {
     width: 130px;
     height: 65px;
